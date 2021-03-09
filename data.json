@@ -1,0 +1,64 @@
+// ******** gestion de Commande
+// POST
+req = {
+  ID_USER: "",
+  medicaments: [
+    {
+      ID: "",
+      Quantity: "",
+    },
+  ],
+};
+responce = { ID_Commande: "" };
+
+//PUT
+req = {
+  ID_Commande: "",
+  ID_USER : ""
+  medicaments: [
+    {
+      ID_Med: "",
+      Quantity: "",
+    },
+  ],
+};
+responce = { ID_Commande: "" };
+//DELETE :id
+responce = true;
+//GET by commande :id_commande
+responce = {
+  ID_Commande: "",
+  prix_totale: "",
+  date: "",
+  medicaments: [
+    {
+      ID: "",
+      Nom_Med: "",
+      Quantity: "",
+      prix_unitaire: "",
+    },
+  ],
+};
+//GET all commande by user :id
+responce = [
+  {
+    ID_Commande: "",
+    prix_totale: "",
+    date: "",
+  },
+];
+// GET all commande
+responce = [
+  {
+    ID_Commande: "",
+    prix_totale: "",
+    ID_user : "",
+    user_name: "",
+    date: "",
+  },
+];
+
+
+//gestion de medicament
+
+//post 
